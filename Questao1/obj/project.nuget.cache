@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "xV3QyGyvnoQ=",
+  "success": true,
+  "projectFilePath": "C:\\Projetos\\Teste\\Teste-Nivelamento-Desenvolvedor-CSharp-API-v3 14\\Questao1\\Questao1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\suporte\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\suporte\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.33\\microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\suporte\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.33\\microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\suporte\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.33\\microsoft.netcore.app.host.win-x64.6.0.33.nupkg.sha512"
+  ],
+  "logs": []
+}

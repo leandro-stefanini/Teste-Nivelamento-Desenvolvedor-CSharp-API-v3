@@ -1,0 +1,70 @@
+[
+  {
+    "ContainingType": "Questao5.Infrastructure.Services.Controllers.ContaController",
+    "Method": "Operacao",
+    "RelativePath": "Conta/Operacao",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Idempotency-Key",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "numeroConta",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "valor",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "tipo",
+        "Type": "System.Char",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Questao5.Infrastructure.Services.Controllers.ContaController",
+    "Method": "Saldo",
+    "RelativePath": "Conta/Saldo/{numeroConta}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numeroConta",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Questao5.Infrastructure.Services.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Questao5.WeatherForecast, Questao5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
